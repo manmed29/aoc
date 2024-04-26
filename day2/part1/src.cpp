@@ -34,7 +34,6 @@ int main()
     ifstream input_file("file.txt");
     string line;
     vector<string> vec;
-    int index = 0;
     int res = 0;
 
     if (!input_file.is_open()) 
@@ -46,7 +45,6 @@ int main()
     while (getline(input_file, line)) 
     {
         vec.push_back(line);
-        index++;
     }
     for (int i = 0; i < vec.size(); i++)
     {
