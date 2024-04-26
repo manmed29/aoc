@@ -7,7 +7,6 @@ using namespace std;
 bool check(string str)
 {
     string tmp;
-    string s;
     int num = 0;
 
         for (int i = str.find(':') + 2; i < str.length(); i++)
